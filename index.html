@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#00aba9" />
+  <meta name="theme-color" content="#000000" />
+  <!-- script -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <title>Escape</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="ESCAPE-LOGO" class="header__logo-img">
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list list-reset">
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">Categories</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 class="header__content-title">Let's do it together.</h1>
+        <p class="header__content-descr">We travel the world in search of stories. Come along for the ride.</p>
+        <a href="#!" class="header__content-link">View Latest Posts</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="tabs">
+      <div class="container">
+        <div class="tabs__inner">
+          <p class="tabs__inner-title">Nature</p>
+          <p class="tabs__inner-title">Photography</p>
+          <p class="tabs__inner-title">Relaxation</p>
+          <p class="tabs__inner-title">Vacation</p>
+          <p class="tabs__inner-title">Travel</p>
+          <p class="tabs__inner-title">Adventure</p>
+        </div>
+      </div>
+    </section>
+    <section class="featured">
+      <div class="container">
+        <h2 class="section__title featured-title">Featured Posts</h2>
+        <div class="featured__inner">
+          <div class="featured__card">
+            <div class="featured__card-content">
+              <h3 class="featured__card--title">The Road Ahead</h3>
+              <p class="featured__card-descr">The road ahead might be paved - it might not be.</p>
+              <div class="featured__author-wrapper">
+                <div class="featured__author-avatar">
+                  <img src="img/featured-author-1.png" alt="Mat Vogels" class="author-avatar">
+                  <h4 class="featured__author-name">Mat Vogels</h4>
+                </div>
+                <p class="featured__publicated">September 25, 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="featured__card featured__card-relative">
+            <div class="featured__card-content">
+              <h3 class="featured__card--title">From Top Down</h3>
+              <p class="featured__card-descr">Once a year, go someplace you’ve never been before.</p>
+              <div class="featured__author-wrapper">
+                <div class="featured__author-avatar">
+                  <img src="img/featured-author-2.png" alt="William Wong" class="author-avatar">
+                  <h4 class="featured__author-name">William Wong</h4>
+                </div>
+                <p class="featured__publicated">September 25, 2023</p>
+              </div>
+            </div>
+            <div class="featured__absolute">
+              <button class="btn-reset featured-block--btn">Adventure</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recent">
+      <div class="container">
+        <h2 class="section__title recent-title">Most Recent</h2>
+        <div class="recent__inner">
+          <div class="recent__card">
+            <img src="img/recent-1.png" alt="Still Standing Tall" class="recent__card-img  recent__card-border">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Still Standing Tall</h5>
+              <p class="recent__card-descr">Life begins at the end of your comfort zone.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-2.png" alt="William Wong" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">William Wong</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="recent__card">
+            <img src="img/recent-2.png" alt="Sunny Side Up" class="recent__card-img">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Sunny Side Up</h5>
+              <p class="recent__card-descr">No place is ever as bad as they tell you it’s going to be.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-1.png" alt="Mat Vogels" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">Mat Vogels</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="recent__card">
+            <img src="img/recent-3.png" alt="Water Falls" class="recent__card-img">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Water Falls</h5>
+              <p class="recent__card-descr">We travel not to escape life, but for life not to escape us.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-1.png" alt="Mat Vogels" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">Mat Vogels</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="recent__card">
+            <img src="img/recent-4.png" alt="Through the Mist" class="recent__card-img">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Through the Mist</h5>
+              <p class="recent__card-descr">Travel makes you see what a tiny place you occupy in the world.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-2.png" alt="William Wong" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">William Wong</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="recent__card">
+            <img src="img/recent-5.png" alt="Awaken Early" class="recent__card-img">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Awaken Early</h5>
+              <p class="recent__card-descr">Not all those who wander are lost.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-1.png" alt="Mat Vogels" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">Mat Vogels</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="recent__card">
+            <img src="img/recent-6.png" alt="Try it Always" class="recent__card-img">
+            <div class="recent__card-content">
+              <h5 class="recent__card-title">Try it Always</h5>
+              <p class="recent__card-descr">The world is a book, and those who do not travel read only one page.</p>
+              <div class="recent__bottom">
+                <div class="recent__bottom-left">
+                  <img src="img/featured-author-1.png" alt="Mat Vogels" class="recent__bottom-img">
+                  <h4 class="recent__bottom-name">Mat Vogels</h4>
+                </div>
+                <p class="recent__bottom-right">9/25/2015</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stay">
+      <div class="container">
+        <h2 class="section__title stay-title">Stay in Touch</h2>
+        <div class="stay__inner">
+          <form class="form">
+            <input type="email" class="form__input" placeholder="Enter your email address" required>
+            <button class="btn-reset form-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <img src="img/logo.png" alt="ESCAPE-LOGO" class="footer__logo">
+            <nav class="footer__nav">
+              <ul class="footer__nav-list list-reset">
+                <li class="footer__nav-item">
+                  <a href="#!" class="footer__nav-link">Home</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#!" class="footer__nav-link">Categories</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#!" class="footer__nav-link">About</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#!" class="footer__nav-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </footer>
+
+    </section>
+  </main>
+
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <script defer src="js/index.js"></script>
+
+</body>
+
+</html>
